@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: rgb(255, 245, 225);
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 105, 105);
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: rgb(200, 0, 54);
+}
+
+a {
+  color: rgb(12, 24, 68);
+  text-decoration: none;
+}
+
+.card {
+  background: aliceblue;
+  border:rgb(200, 0, 54);
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px ;
+  padding: 3%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+img {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
